@@ -1,0 +1,7 @@
+kivy==2.1.0
+kivymd==1.1.1
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.0.0
+pyinstaller==6.0.0
+plyer==2.1.0
