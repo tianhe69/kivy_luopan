@@ -35,7 +35,7 @@ jobs:
         Compress-Archive -Path dist/kivy_luopan.exe -DestinationPath kivy_luopan-windows.zip
         
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: kivy_luopan-windows
         path: kivy_luopan-windows.zip
