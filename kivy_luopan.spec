@@ -7,6 +7,7 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[
+        ('kivy.ini', '.')
         ('assets', 'assets'),
         ('64gua.png', '.'),
     ],
@@ -46,7 +47,7 @@ a = Analysis(
         'PIL.ImageFont',
         'PIL.ImageTk',
     ],
-    hookspath=[],
+    hookspath=['hooks'],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],
