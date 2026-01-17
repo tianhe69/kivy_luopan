@@ -28,7 +28,9 @@ jobs:
         
     - name: Build executable with PyInstaller
       run: |
-        pyinstaller kivy_luopan.spec
+        $env:KIVY_GL_BACKEND='sdl2'
+        $env:KIVY_WINDOW='sdl2'
+        pyinstaller kivy_luopan.spec --noconfirm
         
     - name: Create release package
       run: |
