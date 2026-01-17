@@ -1,3 +1,10 @@
+import os
+
+# 在导入 Kivy 之前设置环境变量，避免 OpenGL 版本检查问题
+os.environ['KIVY_GL_BACKEND'] = 'angle_sdl2'
+os.environ['KIVY_WINDOW'] = 'sdl2'
+os.environ['KIVY_AUDIO'] = 'sdl2'
+os.environ['KIVY_VIDEO'] = 'sdl2'
 import kivy
 kivy.require('1.11.1')
 
