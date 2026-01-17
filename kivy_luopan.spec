@@ -7,9 +7,9 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[
-        ('kivy.ini', '.')
         ('assets', 'assets'),
         ('64gua.png', '.'),
+        ('kivy.ini', '.'),
     ],
     hiddenimports=[
         'kivy',
