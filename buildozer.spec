@@ -32,3 +32,6 @@ android.presplash_color = #000000
 
 # 是否全屏
 android.fullscreen = 0
+
+# 自动接受Android SDK许可协议（必须添加，否则构建失败）
+android.accept_sdk_license = True
